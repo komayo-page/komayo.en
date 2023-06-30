@@ -272,7 +272,7 @@
   <p>
     Showing <i>/home/cyril/Code/GitHub/cyril/komayo-page/app/views/manifest/show.json.erb</i> where line <b>#2</b> raised:
   </p>
-  <pre><code>can not load translations from /home/cyril/Code/GitHub/cyril/komayo-page/config/locales/pa.yml: #&lt;Psych::SyntaxError: (/home/cyril/Code/GitHub/cyril/komayo-page/config/locales/pa.yml): could not find expected &#39;:&#39; while scanning a simple key at line 9 column 3&gt;</code></pre>
+  <pre><code>can not load translations from /home/cyril/Code/GitHub/cyril/komayo-page/config/locales/pa.yml: #&lt;Psych::SyntaxError: (/home/cyril/Code/GitHub/cyril/komayo-page/config/locales/pa.yml): could not find expected &#39;:&#39; while scanning a simple key at line 43 column 3&gt;</code></pre>
 
   
     <div class="source hidden" id="frame-source-0-0">
@@ -4191,7 +4191,7 @@
 
     <div id="Application-Trace-0" style="display: block;">
       <code class="traces">
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="20" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="20" href="#">
             app/views/manifest/show.json.erb:2
           </a>
           <br>
@@ -4199,487 +4199,487 @@
     </div>
     <div id="Framework-Trace-0" style="display: none;">
       <code class="traces">
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="0" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="0" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:259:in `rescue in load_yml&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="1" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="1" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:251:in `load_yml&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="2" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="2" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:233:in `load_file&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="3" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="3" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:17:in `block in load_translations&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="4" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="4" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:16:in `each&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="5" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="5" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:16:in `load_translations&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="6" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="6" href="#">
             i18n (1.14.1) lib/i18n/backend/simple.rb:84:in `init_translations&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="7" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="7" href="#">
             i18n (1.14.1) lib/i18n/backend/simple.rb:94:in `lookup&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="8" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="8" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:33:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="9" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="9" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:50:in `block (2 levels) in translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="10" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="10" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:49:in `catch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="11" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="11" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:49:in `block in translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="12" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="12" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:47:in `each&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="13" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="13" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:47:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="14" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="14" href="#">
             i18n (1.14.1) lib/i18n.rb:363:in `block in translate_key&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="15" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="15" href="#">
             i18n (1.14.1) lib/i18n.rb:362:in `catch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="16" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="16" href="#">
             i18n (1.14.1) lib/i18n.rb:362:in `translate_key&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="17" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="17" href="#">
             i18n (1.14.1) lib/i18n.rb:222:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="18" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="18" href="#">
             activesupport (7.0.6) lib/active_support/html_safe_translation.rb:13:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="19" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="19" href="#">
             actionview (7.0.6) lib/action_view/helpers/translation_helper.rb:91:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="21" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="21" href="#">
             actionview (7.0.6) lib/action_view/base.rb:244:in `public_send&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="22" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="22" href="#">
             actionview (7.0.6) lib/action_view/base.rb:244:in `_run&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="23" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="23" href="#">
             actionview (7.0.6) lib/action_view/template.rb:157:in `block in render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="24" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="24" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:208:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="25" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="25" href="#">
             actionview (7.0.6) lib/action_view/template.rb:361:in `instrument_render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="26" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="26" href="#">
             actionview (7.0.6) lib/action_view/template.rb:155:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="27" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="27" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:65:in `block (2 levels) in render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="28" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="28" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="29" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="29" href="#">
             activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="30" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="30" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="31" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="31" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:60:in `block in render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="32" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="32" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:79:in `render_with_layout&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="33" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="33" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:59:in `render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="34" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="34" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:11:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="35" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="35" href="#">
             actionview (7.0.6) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="36" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="36" href="#">
             actionview (7.0.6) lib/action_view/renderer/renderer.rb:29:in `render_to_object&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="37" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="37" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:117:in `block in _render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="38" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="38" href="#">
             actionview (7.0.6) lib/action_view/base.rb:270:in `in_rendering_context&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="39" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="39" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:116:in `_render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="40" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="40" href="#">
             actionpack (7.0.6) lib/action_controller/metal/streaming.rb:216:in `_render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="41" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="41" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:103:in `render_to_body&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="42" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="42" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rendering.rb:158:in `render_to_body&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="43" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="43" href="#">
             actionpack (7.0.6) lib/action_controller/metal/renderers.rb:141:in `render_to_body&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="44" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="44" href="#">
             actionpack (7.0.6) lib/abstract_controller/rendering.rb:27:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="45" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="45" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rendering.rb:139:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="46" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="46" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:22:in `block (2 levels) in render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="47" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="47" href="#">
             /home/cyril/.rbenv/versions/3.2.2/lib/ruby/3.2.0/benchmark.rb:311:in `realtime&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="48" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="48" href="#">
             activesupport (7.0.6) lib/active_support/core_ext/benchmark.rb:14:in `ms&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="49" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="49" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:22:in `block in render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="50" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="50" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:91:in `cleanup_view_runtime&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="51" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="51" href="#">
             activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:34:in `cleanup_view_runtime&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="52" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="52" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:21:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="53" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="53" href="#">
             actionpack (7.0.6) lib/action_controller/metal/implicit_render.rb:35:in `default_render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="54" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="54" href="#">
             actionpack (7.0.6) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="55" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="55" href="#">
             actionpack (7.0.6) lib/abstract_controller/base.rb:215:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="56" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="56" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rendering.rb:165:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="57" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="57" href="#">
             actionpack (7.0.6) lib/abstract_controller/callbacks.rb:234:in `block in process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="58" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="58" href="#">
             activesupport (7.0.6) lib/active_support/callbacks.rb:107:in `run_callbacks&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="59" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="59" href="#">
             actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="60" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="60" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="61" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="61" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="62" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="62" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="63" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="63" href="#">
             activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="64" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="64" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="65" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="65" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="66" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="66" href="#">
             actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="67" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="67" href="#">
             activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="68" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="68" href="#">
             actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="69" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="69" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:39:in `process&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="70" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="70" href="#">
             actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="71" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="71" href="#">
             actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="72" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="72" href="#">
             actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="73" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="73" href="#">
             actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="74" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="74" href="#">
             actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="75" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="75" href="#">
             actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="76" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="76" href="#">
             actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="77" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="77" href="#">
             actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="78" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="78" href="#">
             rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="79" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="79" href="#">
             rack (2.2.7) lib/rack/etag.rb:27:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="80" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="80" href="#">
             rack (2.2.7) lib/rack/conditional_get.rb:27:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="81" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="81" href="#">
             rack (2.2.7) lib/rack/head.rb:12:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="82" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="82" href="#">
             actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="83" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="83" href="#">
             actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="84" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="84" href="#">
             rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="85" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="85" href="#">
             rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="86" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="86" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="87" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="87" href="#">
             activerecord (7.0.6) lib/active_record/migration.rb:603:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="88" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="88" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="89" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="89" href="#">
             activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="90" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="90" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="91" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="91" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="92" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="92" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="93" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="93" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="94" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="94" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="95" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="95" href="#">
             railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="96" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="96" href="#">
             railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="97" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="97" href="#">
             activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="98" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="98" href="#">
             activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="99" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="99" href="#">
             activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="100" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="100" href="#">
             railties (7.0.6) lib/rails/rack/logger.rb:25:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="101" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="101" href="#">
             sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="102" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="102" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="103" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="103" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="104" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="104" href="#">
             rack (2.2.7) lib/rack/method_override.rb:24:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="105" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="105" href="#">
             rack (2.2.7) lib/rack/runtime.rb:22:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="106" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="106" href="#">
             activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="107" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="107" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="108" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="108" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="109" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="109" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="110" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="110" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="111" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="111" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="112" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="112" href="#">
             rack (2.2.7) lib/rack/sendfile.rb:110:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="113" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="113" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="114" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="114" href="#">
             railties (7.0.6) lib/rails/engine.rb:530:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="115" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="115" href="#">
             puma (6.3.0) lib/puma/configuration.rb:270:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="116" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="116" href="#">
             puma (6.3.0) lib/puma/request.rb:100:in `block in handle_request&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="117" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="117" href="#">
             puma (6.3.0) lib/puma/thread_pool.rb:344:in `with_force_shutdown&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="118" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="118" href="#">
             puma (6.3.0) lib/puma/request.rb:99:in `handle_request&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="119" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="119" href="#">
             puma (6.3.0) lib/puma/server.rb:443:in `process_client&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="120" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="120" href="#">
             puma (6.3.0) lib/puma/server.rb:245:in `block in run&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="121" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="121" href="#">
             puma (6.3.0) lib/puma/thread_pool.rb:151:in `block in spawn_thread&#39;
           </a>
           <br>
@@ -4687,491 +4687,491 @@
     </div>
     <div id="Full-Trace-0" style="display: none;">
       <code class="traces">
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="0" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="0" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:259:in `rescue in load_yml&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="1" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="1" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:251:in `load_yml&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="2" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="2" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:233:in `load_file&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="3" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="3" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:17:in `block in load_translations&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="4" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="4" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:16:in `each&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="5" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="5" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:16:in `load_translations&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="6" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="6" href="#">
             i18n (1.14.1) lib/i18n/backend/simple.rb:84:in `init_translations&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="7" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="7" href="#">
             i18n (1.14.1) lib/i18n/backend/simple.rb:94:in `lookup&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="8" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="8" href="#">
             i18n (1.14.1) lib/i18n/backend/base.rb:33:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="9" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="9" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:50:in `block (2 levels) in translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="10" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="10" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:49:in `catch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="11" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="11" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:49:in `block in translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="12" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="12" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:47:in `each&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="13" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="13" href="#">
             i18n (1.14.1) lib/i18n/backend/fallbacks.rb:47:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="14" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="14" href="#">
             i18n (1.14.1) lib/i18n.rb:363:in `block in translate_key&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="15" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="15" href="#">
             i18n (1.14.1) lib/i18n.rb:362:in `catch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="16" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="16" href="#">
             i18n (1.14.1) lib/i18n.rb:362:in `translate_key&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="17" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="17" href="#">
             i18n (1.14.1) lib/i18n.rb:222:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="18" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="18" href="#">
             activesupport (7.0.6) lib/active_support/html_safe_translation.rb:13:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="19" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="19" href="#">
             actionview (7.0.6) lib/action_view/helpers/translation_helper.rb:91:in `translate&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="20" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="20" href="#">
             app/views/manifest/show.json.erb:2
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="21" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="21" href="#">
             actionview (7.0.6) lib/action_view/base.rb:244:in `public_send&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="22" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="22" href="#">
             actionview (7.0.6) lib/action_view/base.rb:244:in `_run&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="23" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="23" href="#">
             actionview (7.0.6) lib/action_view/template.rb:157:in `block in render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="24" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="24" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:208:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="25" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="25" href="#">
             actionview (7.0.6) lib/action_view/template.rb:361:in `instrument_render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="26" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="26" href="#">
             actionview (7.0.6) lib/action_view/template.rb:155:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="27" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="27" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:65:in `block (2 levels) in render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="28" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="28" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="29" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="29" href="#">
             activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="30" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="30" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="31" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="31" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:60:in `block in render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="32" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="32" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:79:in `render_with_layout&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="33" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="33" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:59:in `render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="34" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="34" href="#">
             actionview (7.0.6) lib/action_view/renderer/template_renderer.rb:11:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="35" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="35" href="#">
             actionview (7.0.6) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="36" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="36" href="#">
             actionview (7.0.6) lib/action_view/renderer/renderer.rb:29:in `render_to_object&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="37" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="37" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:117:in `block in _render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="38" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="38" href="#">
             actionview (7.0.6) lib/action_view/base.rb:270:in `in_rendering_context&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="39" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="39" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:116:in `_render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="40" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="40" href="#">
             actionpack (7.0.6) lib/action_controller/metal/streaming.rb:216:in `_render_template&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="41" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="41" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:103:in `render_to_body&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="42" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="42" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rendering.rb:158:in `render_to_body&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="43" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="43" href="#">
             actionpack (7.0.6) lib/action_controller/metal/renderers.rb:141:in `render_to_body&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="44" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="44" href="#">
             actionpack (7.0.6) lib/abstract_controller/rendering.rb:27:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="45" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="45" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rendering.rb:139:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="46" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="46" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:22:in `block (2 levels) in render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="47" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="47" href="#">
             /home/cyril/.rbenv/versions/3.2.2/lib/ruby/3.2.0/benchmark.rb:311:in `realtime&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="48" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="48" href="#">
             activesupport (7.0.6) lib/active_support/core_ext/benchmark.rb:14:in `ms&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="49" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="49" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:22:in `block in render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="50" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="50" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:91:in `cleanup_view_runtime&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="51" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="51" href="#">
             activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:34:in `cleanup_view_runtime&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="52" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="52" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:21:in `render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="53" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="53" href="#">
             actionpack (7.0.6) lib/action_controller/metal/implicit_render.rb:35:in `default_render&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="54" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="54" href="#">
             actionpack (7.0.6) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="55" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="55" href="#">
             actionpack (7.0.6) lib/abstract_controller/base.rb:215:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="56" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="56" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rendering.rb:165:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="57" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="57" href="#">
             actionpack (7.0.6) lib/abstract_controller/callbacks.rb:234:in `block in process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="58" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="58" href="#">
             activesupport (7.0.6) lib/active_support/callbacks.rb:107:in `run_callbacks&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="59" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="59" href="#">
             actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="60" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="60" href="#">
             actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="61" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="61" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="62" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="62" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="63" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="63" href="#">
             activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="64" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="64" href="#">
             activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="65" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="65" href="#">
             actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="66" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="66" href="#">
             actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="67" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="67" href="#">
             activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="68" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="68" href="#">
             actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="69" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="69" href="#">
             actionview (7.0.6) lib/action_view/rendering.rb:39:in `process&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="70" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="70" href="#">
             actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="71" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="71" href="#">
             actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="72" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="72" href="#">
             actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="73" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="73" href="#">
             actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="74" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="74" href="#">
             actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="75" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="75" href="#">
             actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="76" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="76" href="#">
             actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="77" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="77" href="#">
             actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="78" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="78" href="#">
             rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="79" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="79" href="#">
             rack (2.2.7) lib/rack/etag.rb:27:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="80" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="80" href="#">
             rack (2.2.7) lib/rack/conditional_get.rb:27:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="81" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="81" href="#">
             rack (2.2.7) lib/rack/head.rb:12:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="82" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="82" href="#">
             actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="83" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="83" href="#">
             actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="84" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="84" href="#">
             rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="85" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="85" href="#">
             rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="86" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="86" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="87" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="87" href="#">
             activerecord (7.0.6) lib/active_record/migration.rb:603:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="88" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="88" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="89" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="89" href="#">
             activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="90" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="90" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="91" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="91" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="92" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="92" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="93" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="93" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="94" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="94" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="95" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="95" href="#">
             railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="96" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="96" href="#">
             railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="97" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="97" href="#">
             activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="98" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="98" href="#">
             activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="99" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="99" href="#">
             activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="100" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="100" href="#">
             railties (7.0.6) lib/rails/rack/logger.rb:25:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="101" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="101" href="#">
             sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="102" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="102" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="103" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="103" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="104" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="104" href="#">
             rack (2.2.7) lib/rack/method_override.rb:24:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="105" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="105" href="#">
             rack (2.2.7) lib/rack/runtime.rb:22:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="106" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="106" href="#">
             activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="107" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="107" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="108" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="108" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="109" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="109" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="110" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="110" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="111" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="111" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="112" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="112" href="#">
             rack (2.2.7) lib/rack/sendfile.rb:110:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="113" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="113" href="#">
             actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="114" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="114" href="#">
             railties (7.0.6) lib/rails/engine.rb:530:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="115" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="115" href="#">
             puma (6.3.0) lib/puma/configuration.rb:270:in `call&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="116" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="116" href="#">
             puma (6.3.0) lib/puma/request.rb:100:in `block in handle_request&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="117" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="117" href="#">
             puma (6.3.0) lib/puma/thread_pool.rb:344:in `with_force_shutdown&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="118" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="118" href="#">
             puma (6.3.0) lib/puma/request.rb:99:in `handle_request&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="119" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="119" href="#">
             puma (6.3.0) lib/puma/server.rb:443:in `process_client&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="120" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="120" href="#">
             puma (6.3.0) lib/puma/server.rb:245:in `block in run&#39;
           </a>
           <br>
-          <a class="trace-frames trace-frames-0" data-exception-object-id="8600" data-frame-id="121" href="#">
+          <a class="trace-frames trace-frames-0" data-exception-object-id="8660" data-frame-id="121" href="#">
             puma (6.3.0) lib/puma/thread_pool.rb:151:in `block in spawn_thread&#39;
           </a>
           <br>
