@@ -22,9 +22,28 @@
     <link rel="icon" type="image/svg+xml" sizes="any" href="../favicon.svg">
 
     <style media="screen">
-      :root {
-        --article-title-text-color: #fff;
-        --article-title-shadow-color: #333;
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background-color: white;
+          --color: black;
+          --link-color: #6d071a;
+          --quote-color: #6d071a;
+          --shadow-color: #ccc;
+          --article-title-text-color: #000;
+          --article-title-shadow-color: #ccc;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: black;
+          --color: white;
+          --link-color: #e37f98;
+          --quote-color: #e37f98;
+          --shadow-color: #58354d;
+          --article-title-text-color: #fff;
+          --article-title-shadow-color: #333;
+        }
       }
     </style>
 
@@ -60,14 +79,27 @@
 
   <body>
     <header>
-      <a href="../"><img
-        src="../komayo.svg"
-        alt="Komayō"
-        title="Komayō"></a>
+      <a href="../">
+        <picture>
+          <source srcset="../komayo-light.svg" media="(prefers-color-scheme: light)">
+          <img
+            src="../komayo-dark.svg"
+            alt="Komayō"
+            title="Komayō">
+        </picture>
+      </a>
     </header>
 
     <nav>
-      <a href="encounter-at-the-bar-de-la-regence/"><img src="encounter-at-the-bar-de-la-regence/favicon.svg" alt="Episod 1" title="Encounter at the Bar de la Régence"></a>
+      <a href="encounter-at-the-bar-de-la-regence/">
+        <picture>
+          <source srcset="encounter-at-the-bar-de-la-regence/favicon-episod-1-light.svg" media="(prefers-color-scheme: light)">
+          <img
+            src="encounter-at-the-bar-de-la-regence/favicon-episod-1-dark.svg"
+            alt="Episod 1"
+            title="Encounter at the Bar de la Régence">
+        </picture>
+      </a>
     </nav>
 
     <article>
@@ -95,9 +127,5 @@
         </dd>
       </dl>
     </article>
-
-    <footer>
-      &copy; 2023 Cyril Veltin
-    </footer>
   </body>
 </html>

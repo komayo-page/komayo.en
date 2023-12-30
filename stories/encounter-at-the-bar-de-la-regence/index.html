@@ -24,12 +24,31 @@
 
     <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/recits/rencontre-au-bar-de-la-regence/">
     <link rel="canonical" href="https://en.komayo.page/stories/encounter-at-the-bar-de-la-regence/">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon-episod-1-dark.svg">
 
     <style media="screen">
-      :root {
-        --article-title-text-color: #f6ff00;
-        --article-title-shadow-color: #000;
+      @media (prefers-color-scheme: light) {
+        :root {
+          --background-color: #ddd1bc;
+          --color: black;
+          --link-color: #4e3d28;
+          --quote-color: #7e5835;
+          --shadow-color: #fff0bc;
+          --article-title-text-color: #000;
+          --article-title-shadow-color: #f6ff00;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background-color: #111;
+          --color: white;
+          --link-color: #f0c300;
+          --quote-color: yellow;
+          --shadow-color: #000;
+          --article-title-text-color: #f6ff00;
+          --article-title-shadow-color: #000;
+        }
       }
 
       body > nav a:nth-child(1) img {
@@ -67,11 +86,20 @@
 
   <body>
     <header>
-      <a href="../../"><img decoding="async" alt="Komayō" title="Komayō" src="komayo.svg"></a>
+      <a href="../../">
+        <picture>
+          <source srcset="komayo-light.svg" media="(prefers-color-scheme: light)">
+          <img
+            src="komayo-dark.svg"
+            alt="Komayō"
+            title="Komayō"
+            decoding="async">
+        </picture>
+      </a>
     </header>
 
     <nav>
-      <a href="../encounter-at-the-bar-de-la-regence/"><img src="../encounter-at-the-bar-de-la-regence/favicon.svg" alt="Episod 1" title="Encounter at the Bar de la Régence"></a>
+      <a href="../encounter-at-the-bar-de-la-regence/"><img src="../encounter-at-the-bar-de-la-regence/favicon-episod-1-dark.svg" alt="Episod 1" title="Encounter at the Bar de la Régence"></a>
     </nav>
 
     <article>
@@ -127,7 +155,7 @@
         </p>
 
         <p>
-          This book is the poignant testimony of one of them.
+          This narrative is the poignant testimony of one of them.
         </p>
       </blockquote>
 
@@ -603,9 +631,5 @@
           width="1024">
       </p>
     </article>
-
-    <footer>
-      &copy; 2023 Cyril Veltin
-    </footer>
   </body>
 </html>
